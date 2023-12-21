@@ -23,8 +23,8 @@
   
   @media (min-width: 768px) {
     .modal {
-      width: 70%;
-      left: calc(40% - 14rem);
+      width: 40%;
+      left: calc(50% - 15rem);
     }
   }
   
