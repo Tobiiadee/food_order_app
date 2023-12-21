@@ -1,0 +1,40 @@
+.available-meals {
+    width: 60%;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    /* border: 1px solid black; */
+    animation: slide-up 500ms ease-in forwards;
+    
+}
+
+.meals-body {
+    padding: 1rem 1.5rem 2rem;
+    background: #fff;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .available-meals {
+        margin-top: 9rem;
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .available-meals {
+        margin-top: 8rem;
+        width: 80%;
+    }
+  }

@@ -1,0 +1,12 @@
+.App {
+    /* box-sizing: border-box; */
+    background-color: rgba(12, 12, 12, .9);
+    z-index: -3;
+    /* outline: 1px solid red; */
+}
+
+@media (min-width: 768px) {
+    .App {
+        height: 100vh;
+    }
+  }

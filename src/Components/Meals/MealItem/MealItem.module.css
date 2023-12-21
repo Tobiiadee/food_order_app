@@ -1,0 +1,31 @@
+.meal-item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin-bottom: 1rem;
+}
+
+/* .meal-details {
+    border: 1px solid black;
+} */
+
+.meal-title {
+    margin-bottom: -.8rem;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.meal-description {
+    margin-bottom: -.1rem;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.meal-amount {
+    margin-bottom: .5rem;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(47, 101, 47);
+}

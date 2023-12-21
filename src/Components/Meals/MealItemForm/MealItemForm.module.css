@@ -1,0 +1,22 @@
+.meal-form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    gap: .3rem;
+}
+
+.meal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem 1rem;
+    background-color: rgb(47, 101, 47);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.meal-btn:hover {
+    background-color: rgb(29, 62, 29);
+}
